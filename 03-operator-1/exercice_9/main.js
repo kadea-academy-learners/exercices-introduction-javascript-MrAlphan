@@ -20,48 +20,40 @@ let partCategorie2 = total * 0.25;
 // 4- Première catégorie : Les enfants du défunt
 
 let partParEnfantOuBranche = partCategorie1 / 3;
-
-let partPaul = partParEnfantOuBranche;
-let partMarie = partParEnfantOuBranche;
-let partBrancheAlain = partParEnfantOuBranche;
-let partEric = partBrancheAlain / 2;
-let partClaire = partBrancheAlain / 2;
-
-// 5-  Deuxième catégorie : Le conjoint survivant et les frères/sœurs
-
 let partParPersonneCat2 = partCategorie2 / 3;
 
-let partMadameMUKUNA = partParPersonneCat2;
-let partJoseph = partParPersonneCat2;
-let partSarah = partParPersonneCat2;
-
+// Variables globales attendues par les tests
+let paul = partParEnfantOuBranche;
+let marie = partParEnfantOuBranche;
+let eric = partParEnfantOuBranche / 2;
+let clair = partParEnfantOuBranche / 2;
+let madameMukuna = partParPersonneCat2;
+let joseph = partParPersonneCat2;
+let sarah = partParPersonneCat2;
 // 6-  Calcul des parts
 
 // Première catégorie : Répartition des 75% 
 
-console.log("Paul   :", partPaul);
-console.log("Marie  :", partMarie);
-console.log("Éric   :", partEric,   "(représente Alain)");
 console.log("Claire :", partClaire, "(représente Alain)");
 
 // Deuxième catégorie : Répartition des 25% 
 
-console.log("Madame MUKUNA :", partMadameMUKUNA);
-console.log("Joseph        :", partJoseph);
-console.log("Sarah         :", partSarah, "(représente Daniel)");
+console.log("Madame MUKUNA :", madameMukuna);
+console.log("Joseph        :", joseph);
+console.log("Sarah         :", sarah, "(représente Daniel)");
 
 
-let sommeADistribuee = partPaul + partMarie + partEric + partClaire + partMadameMUKUNA + partJoseph + partSarah;
+let sommeADistribuee = paul + marie + eric + clair + madameMukuna + joseph + sarah;
 console.log("\nSomme distribuée :", sommeADistribuee);
 console.log("Vérification OK ? ", sommeADistribuee === total);
 
-console.log("Paul :", partPaul);
-console.log("Marie :", partMarie);
-console.log("Éric :", partEric);
-console.log("Claire :", partClaire);
-console.log("Madame MUKUNA :", partMadameMUKUNA);
-console.log("Joseph :", partJoseph);
-console.log("Sarah :", partSarah);
+console.log("Paul :", paul);
+console.log("Marie :", marie);
+console.log("Éric :", eric);
+console.log("Claire :", clair);
+console.log("Madame MUKUNA :", madameMukuna);
+console.log("Joseph :", joseph);
+console.log("Sarah :", sarah);
 
 
 
