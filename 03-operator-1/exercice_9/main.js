@@ -56,6 +56,16 @@ console.log("Joseph :", joseph);
 console.log("Sarah :", sarah);
 
 
+module.exports = {
+  partPaul,
+  partMarie,
+  partEric,
+  partClaire,
+  partMadameMUKUNA,
+  partJoseph,
+  partSarah
+};
+
 
 
 

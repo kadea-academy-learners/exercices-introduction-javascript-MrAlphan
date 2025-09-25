@@ -7,3 +7,14 @@ let transport = salaireMensuel * 0.1;
 let autresDepenses = 50 + 25;
 let totalDepenses = loyer + nourriture + transport + autresDepenses;
 let reste = salaireMensuel - totalDepenses;
+
+
+module.exports = {
+  salaireMensuel,
+  loyer,
+  nourriture,
+  transport,
+  autresDepenses,
+  totalDepenses,
+  reste
+};
