@@ -1,2 +1,8 @@
 // Exercice 6
-// Écrivez votre code ici
+let age = 20;
+let smartAcademy = "Bienvenue à Smart Academy";
+let estConnecte = false;
+let valeurNulle = null;
+let inconnue;
+
+
