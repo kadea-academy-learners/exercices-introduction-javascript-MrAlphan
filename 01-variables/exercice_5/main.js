@@ -1,7 +1,6 @@
 // Exercice 5
-
-let temperatureEnCelsius = 25;
-let temperatureEnFahrenheit = (temperatureEnCelsius * 9/5) + 32;
-
-console.log(temperatureEnCelsius + "°C équivaut à " + temperatureEnFahrenheit + "°F");
+function celsiusToFahrenheit(celsius) {
+	return celsius * 9 / 5 + 32;
+}
+console.log(celsiusToFahrenheit(25));
 

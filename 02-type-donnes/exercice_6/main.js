@@ -1,8 +1,9 @@
 // Exercice 6
 let age = 20;
-let smartAcademy = "Bienvenue à Smart Academy";
-let estConnecte = false;
+let nom = "Kadea";
+let estConnecte = true;
 let valeurNulle = null;
-let inconnue;
+
+
 
 
